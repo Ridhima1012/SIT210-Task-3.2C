@@ -53,8 +53,7 @@ void loop() {
 
   if (lux > 500) {
 
-    // // make a HTTP request:
-    // // send HTTP header
+  
     
     if (!lightDetected) {
       // When light is detected (and it was previously not detected), send notification.
